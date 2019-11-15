@@ -15,26 +15,10 @@
           <div class="col-xl-12">
             <div class="box box-primary">
               <div class="box-header with-border">
-                <h3 class="box-title">Create Post</h3>
+             
+                <a href="{{route('create_post')}}" class="genric-btn primary-border circle">Create Post</a>
               </div>
               <!-- /.box-header -->
-              <!-- form start -->
-              <form role="form">
-                <div class="box-body">
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="What are you thinking ?">
-                  </div>
-                  <div class="input-group mb-3">
-                    <div class="custom-file">
-                      <input class="btn-input-file" type="file" placeholder="Choose file" >
-                    </div>
-                    <div class="btn-box-footer">
-                      <button type="submit" class="btn btn-primary-box" class="genric-btn info-border circle arrow">Post<span class="lnr lnr-arrow-up"></span></button>
-                    </div>
-                  </div>
-                </div>
-                <!-- /.box-body -->
-              </form>
             </div>
           </div>
 

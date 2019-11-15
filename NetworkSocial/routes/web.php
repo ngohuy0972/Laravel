@@ -20,3 +20,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/profile', 'HomeController@getProfile')->name('profile');
+
+Route::get('/create_post', 'frontend\PicturesController@createPost')->name('create_post');
+Route::post('/create_post', 'frontend\PicturesController@postPicture')->name('create_post');

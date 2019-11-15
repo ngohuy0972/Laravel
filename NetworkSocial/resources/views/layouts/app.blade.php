@@ -44,6 +44,7 @@
   @yield('register')
   @yield('home')
   @yield('profile')
+  @yield('create_post')
   @include('elements.footer')
   </div>
 
